@@ -1,8 +1,8 @@
 package stack
 
 import (
-	"github.com/portainer/portainer"
-	"github.com/portainer/portainer/bolt/internal"
+	"github.com/netfirms/Laem-Chabang/api"
+	"github.com/netfirms/Laem-Chabang/api/bolt/internal"
 
 	"github.com/boltdb/bolt"
 )

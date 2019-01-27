@@ -4,9 +4,9 @@ import (
 	"net/http"
 
 	"github.com/portainer/libhttp/response"
-	"github.com/portainer/portainer"
-	"github.com/portainer/portainer/crypto"
-	"github.com/portainer/portainer/http/client"
+	"github.com/netfirms/Laem-Chabang/api"
+	"github.com/netfirms/Laem-Chabang/api/crypto"
+	"github.com/netfirms/Laem-Chabang/api/http/client"
 )
 
 type motdResponse struct {

@@ -1,7 +1,7 @@
 package security
 
 import (
-	"github.com/portainer/portainer"
+	"github.com/netfirms/Laem-Chabang/api"
 )
 
 // AuthorizedResourceControlDeletion ensure that the user can delete a resource control object.

@@ -8,8 +8,8 @@ import (
 	"regexp"
 	"strings"
 
-	"github.com/portainer/portainer"
-	"github.com/portainer/portainer/http/security"
+	"github.com/netfirms/Laem-Chabang/api"
+	"github.com/netfirms/Laem-Chabang/api/http/security"
 )
 
 var apiVersionRe = regexp.MustCompile(`(/v[0-9]\.[0-9]*)?`)

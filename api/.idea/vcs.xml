@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="VcsDirectoryMappings">
+    <mapping directory="$PROJECT_DIR$/.." vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/src/github.com/alecthomas/template" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/src/github.com/alecthomas/units" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/src/github.com/asaskevich/govalidator" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/src/github.com/boltdb/bolt" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/src/github.com/coreos/go-semver" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/src/github.com/dgrijalva/jwt-go" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/src/github.com/docker/docker" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/src/github.com/emirpasic/gods" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/src/github.com/g07cha/defender" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/src/github.com/gorilla/mux" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/src/github.com/gorilla/securecookie" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/src/github.com/gorilla/websocket" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/src/github.com/jbenet/go-context" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/src/github.com/kevinburke/ssh_config" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/src/github.com/koding/websocketproxy" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/src/github.com/mitchellh/go-homedir" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/src/github.com/netfirms/Laem-Chabang" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/src/github.com/orcaman/concurrent-map" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/src/github.com/pelletier/go-buffruneio" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/src/github.com/portainer/libcompose" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/src/github.com/portainer/libhttp" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/src/github.com/portainer/portainer" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/src/github.com/robfig/cron" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/src/github.com/satori/go.uuid" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/src/github.com/sergi/go-diff" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/src/github.com/src-d/gcfg" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/src/github.com/xanzy/ssh-agent" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/src/golang.org/x/crypto" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/src/golang.org/x/net" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/src/golang.org/x/text" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/src/golang.org/x/time" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/src/gopkg.in/alecthomas/kingpin.v2" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/src/gopkg.in/asn1-ber.v1" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/src/gopkg.in/ldap.v2" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/src/gopkg.in/src-d/go-billy.v4" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/src/gopkg.in/src-d/go-git.v4" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/src/gopkg.in/warnings.v0" vcs="Git" />
+  </component>
+</project>

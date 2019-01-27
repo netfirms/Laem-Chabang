@@ -6,8 +6,8 @@ import (
 	"time"
 
 	"github.com/docker/docker/client"
-	"github.com/portainer/portainer"
-	"github.com/portainer/portainer/crypto"
+	"github.com/netfirms/Laem-Chabang/api"
+	"github.com/netfirms/Laem-Chabang/api/crypto"
 )
 
 const (

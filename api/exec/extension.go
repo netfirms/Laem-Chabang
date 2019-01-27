@@ -11,8 +11,8 @@ import (
 	"strings"
 
 	"github.com/orcaman/concurrent-map"
-	"github.com/portainer/portainer"
-	"github.com/portainer/portainer/http/client"
+	"github.com/netfirms/Laem-Chabang/api"
+	"github.com/netfirms/Laem-Chabang/api/http/client"
 )
 
 var extensionDownloadBaseURL = "https://portainer-io-assets.sfo2.digitaloceanspaces.com/extensions/"
