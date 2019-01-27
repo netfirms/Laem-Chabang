@@ -1,0 +1,1101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="c26063fa-a058-47df-b55b-c463381fc188" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/bolt/datastore.go" beforeDir="false" afterPath="$PROJECT_DIR$/bolt/datastore.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bolt/dockerhub/dockerhub.go" beforeDir="false" afterPath="$PROJECT_DIR$/bolt/dockerhub/dockerhub.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bolt/endpoint/endpoint.go" beforeDir="false" afterPath="$PROJECT_DIR$/bolt/endpoint/endpoint.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bolt/endpointgroup/endpointgroup.go" beforeDir="false" afterPath="$PROJECT_DIR$/bolt/endpointgroup/endpointgroup.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bolt/extension/extension.go" beforeDir="false" afterPath="$PROJECT_DIR$/bolt/extension/extension.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bolt/internal/db.go" beforeDir="false" afterPath="$PROJECT_DIR$/bolt/internal/db.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bolt/migrator/migrate_dbversion0.go" beforeDir="false" afterPath="$PROJECT_DIR$/bolt/migrator/migrate_dbversion0.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bolt/migrator/migrate_dbversion1.go" beforeDir="false" afterPath="$PROJECT_DIR$/bolt/migrator/migrate_dbversion1.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bolt/migrator/migrate_dbversion10.go" beforeDir="false" afterPath="$PROJECT_DIR$/bolt/migrator/migrate_dbversion10.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bolt/migrator/migrate_dbversion11.go" beforeDir="false" afterPath="$PROJECT_DIR$/bolt/migrator/migrate_dbversion11.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bolt/migrator/migrate_dbversion12.go" beforeDir="false" afterPath="$PROJECT_DIR$/bolt/migrator/migrate_dbversion12.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bolt/migrator/migrate_dbversion14.go" beforeDir="false" afterPath="$PROJECT_DIR$/bolt/migrator/migrate_dbversion14.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bolt/migrator/migrate_dbversion2.go" beforeDir="false" afterPath="$PROJECT_DIR$/bolt/migrator/migrate_dbversion2.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bolt/migrator/migrate_dbversion3.go" beforeDir="false" afterPath="$PROJECT_DIR$/bolt/migrator/migrate_dbversion3.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bolt/migrator/migrate_dbversion7.go" beforeDir="false" afterPath="$PROJECT_DIR$/bolt/migrator/migrate_dbversion7.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bolt/migrator/migrate_dbversion8.go" beforeDir="false" afterPath="$PROJECT_DIR$/bolt/migrator/migrate_dbversion8.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bolt/migrator/migrate_dbversion9.go" beforeDir="false" afterPath="$PROJECT_DIR$/bolt/migrator/migrate_dbversion9.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bolt/migrator/migrator.go" beforeDir="false" afterPath="$PROJECT_DIR$/bolt/migrator/migrator.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bolt/registry/registry.go" beforeDir="false" afterPath="$PROJECT_DIR$/bolt/registry/registry.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bolt/resourcecontrol/resourcecontrol.go" beforeDir="false" afterPath="$PROJECT_DIR$/bolt/resourcecontrol/resourcecontrol.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bolt/schedule/schedule.go" beforeDir="false" afterPath="$PROJECT_DIR$/bolt/schedule/schedule.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bolt/settings/settings.go" beforeDir="false" afterPath="$PROJECT_DIR$/bolt/settings/settings.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bolt/stack/stack.go" beforeDir="false" afterPath="$PROJECT_DIR$/bolt/stack/stack.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bolt/tag/tag.go" beforeDir="false" afterPath="$PROJECT_DIR$/bolt/tag/tag.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bolt/team/team.go" beforeDir="false" afterPath="$PROJECT_DIR$/bolt/team/team.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bolt/teammembership/teammembership.go" beforeDir="false" afterPath="$PROJECT_DIR$/bolt/teammembership/teammembership.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bolt/template/template.go" beforeDir="false" afterPath="$PROJECT_DIR$/bolt/template/template.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bolt/user/user.go" beforeDir="false" afterPath="$PROJECT_DIR$/bolt/user/user.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bolt/version/version.go" beforeDir="false" afterPath="$PROJECT_DIR$/bolt/version/version.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bolt/webhook/webhook.go" beforeDir="false" afterPath="$PROJECT_DIR$/bolt/webhook/webhook.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cli/cli.go" beforeDir="false" afterPath="$PROJECT_DIR$/cli/cli.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cli/pairlist.go" beforeDir="false" afterPath="$PROJECT_DIR$/cli/pairlist.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmd/portainer/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/cmd/portainer/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cron/job_endpoint_sync.go" beforeDir="false" afterPath="$PROJECT_DIR$/cron/job_endpoint_sync.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cron/job_script_execution.go" beforeDir="false" afterPath="$PROJECT_DIR$/cron/job_script_execution.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cron/job_snapshot.go" beforeDir="false" afterPath="$PROJECT_DIR$/cron/job_snapshot.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cron/scheduler.go" beforeDir="false" afterPath="$PROJECT_DIR$/cron/scheduler.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/client.go" beforeDir="false" afterPath="$PROJECT_DIR$/docker/client.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/job.go" beforeDir="false" afterPath="$PROJECT_DIR$/docker/job.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/snapshot.go" beforeDir="false" afterPath="$PROJECT_DIR$/docker/snapshot.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/snapshotter.go" beforeDir="false" afterPath="$PROJECT_DIR$/docker/snapshotter.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exec/extension.go" beforeDir="false" afterPath="$PROJECT_DIR$/exec/extension.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exec/swarm_stack.go" beforeDir="false" afterPath="$PROJECT_DIR$/exec/swarm_stack.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/filesystem/filesystem.go" beforeDir="false" afterPath="$PROJECT_DIR$/filesystem/filesystem.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/http/client/client.go" beforeDir="false" afterPath="$PROJECT_DIR$/http/client/client.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/http/handler/auth/authenticate.go" beforeDir="false" afterPath="$PROJECT_DIR$/http/handler/auth/authenticate.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/http/handler/auth/handler.go" beforeDir="false" afterPath="$PROJECT_DIR$/http/handler/auth/handler.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/http/handler/dockerhub/dockerhub_update.go" beforeDir="false" afterPath="$PROJECT_DIR$/http/handler/dockerhub/dockerhub_update.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/http/handler/dockerhub/handler.go" beforeDir="false" afterPath="$PROJECT_DIR$/http/handler/dockerhub/handler.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/http/handler/endpointgroups/endpointgroup_create.go" beforeDir="false" afterPath="$PROJECT_DIR$/http/handler/endpointgroups/endpointgroup_create.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/http/handler/endpointgroups/endpointgroup_delete.go" beforeDir="false" afterPath="$PROJECT_DIR$/http/handler/endpointgroups/endpointgroup_delete.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/http/handler/endpointgroups/endpointgroup_inspect.go" beforeDir="false" afterPath="$PROJECT_DIR$/http/handler/endpointgroups/endpointgroup_inspect.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/http/handler/endpointgroups/endpointgroup_list.go" beforeDir="false" afterPath="$PROJECT_DIR$/http/handler/endpointgroups/endpointgroup_list.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/http/handler/endpointgroups/endpointgroup_update.go" beforeDir="false" afterPath="$PROJECT_DIR$/http/handler/endpointgroups/endpointgroup_update.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/http/handler/endpointgroups/endpointgroup_update_access.go" beforeDir="false" afterPath="$PROJECT_DIR$/http/handler/endpointgroups/endpointgroup_update_access.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/http/handler/endpointgroups/handler.go" beforeDir="false" afterPath="$PROJECT_DIR$/http/handler/endpointgroups/handler.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/http/handler/endpointproxy/handler.go" beforeDir="false" afterPath="$PROJECT_DIR$/http/handler/endpointproxy/handler.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/http/handler/endpointproxy/proxy_azure.go" beforeDir="false" afterPath="$PROJECT_DIR$/http/handler/endpointproxy/proxy_azure.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/http/handler/endpointproxy/proxy_docker.go" beforeDir="false" afterPath="$PROJECT_DIR$/http/handler/endpointproxy/proxy_docker.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/http/handler/endpointproxy/proxy_storidge.go" beforeDir="false" afterPath="$PROJECT_DIR$/http/handler/endpointproxy/proxy_storidge.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/http/handler/endpoints/endpoint_create.go" beforeDir="false" afterPath="$PROJECT_DIR$/http/handler/endpoints/endpoint_create.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/http/handler/endpoints/endpoint_delete.go" beforeDir="false" afterPath="$PROJECT_DIR$/http/handler/endpoints/endpoint_delete.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/http/handler/endpoints/endpoint_extension_add.go" beforeDir="false" afterPath="$PROJECT_DIR$/http/handler/endpoints/endpoint_extension_add.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/http/handler/endpoints/endpoint_extension_remove.go" beforeDir="false" afterPath="$PROJECT_DIR$/http/handler/endpoints/endpoint_extension_remove.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/http/handler/endpoints/endpoint_inspect.go" beforeDir="false" afterPath="$PROJECT_DIR$/http/handler/endpoints/endpoint_inspect.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/http/handler/endpoints/endpoint_job.go" beforeDir="false" afterPath="$PROJECT_DIR$/http/handler/endpoints/endpoint_job.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/http/handler/endpoints/endpoint_list.go" beforeDir="false" afterPath="$PROJECT_DIR$/http/handler/endpoints/endpoint_list.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/http/handler/endpoints/endpoint_snapshot.go" beforeDir="false" afterPath="$PROJECT_DIR$/http/handler/endpoints/endpoint_snapshot.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/http/handler/endpoints/endpoint_snapshots.go" beforeDir="false" afterPath="$PROJECT_DIR$/http/handler/endpoints/endpoint_snapshots.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/http/handler/endpoints/endpoint_update.go" beforeDir="false" afterPath="$PROJECT_DIR$/http/handler/endpoints/endpoint_update.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/http/handler/endpoints/endpoint_update_access.go" beforeDir="false" afterPath="$PROJECT_DIR$/http/handler/endpoints/endpoint_update_access.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/http/handler/endpoints/handler.go" beforeDir="false" afterPath="$PROJECT_DIR$/http/handler/endpoints/handler.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/http/handler/extensions/extension_create.go" beforeDir="false" afterPath="$PROJECT_DIR$/http/handler/extensions/extension_create.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/http/handler/extensions/extension_delete.go" beforeDir="false" afterPath="$PROJECT_DIR$/http/handler/extensions/extension_delete.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/http/handler/extensions/extension_inspect.go" beforeDir="false" afterPath="$PROJECT_DIR$/http/handler/extensions/extension_inspect.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/http/handler/extensions/extension_list.go" beforeDir="false" afterPath="$PROJECT_DIR$/http/handler/extensions/extension_list.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/http/handler/extensions/extension_update.go" beforeDir="false" afterPath="$PROJECT_DIR$/http/handler/extensions/extension_update.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/http/handler/extensions/handler.go" beforeDir="false" afterPath="$PROJECT_DIR$/http/handler/extensions/handler.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/http/handler/handler.go" beforeDir="false" afterPath="$PROJECT_DIR$/http/handler/handler.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/http/handler/motd/handler.go" beforeDir="false" afterPath="$PROJECT_DIR$/http/handler/motd/handler.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/http/handler/motd/motd.go" beforeDir="false" afterPath="$PROJECT_DIR$/http/handler/motd/motd.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/http/handler/registries/handler.go" beforeDir="false" afterPath="$PROJECT_DIR$/http/handler/registries/handler.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/http/handler/registries/proxy.go" beforeDir="false" afterPath="$PROJECT_DIR$/http/handler/registries/proxy.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/http/handler/registries/registry_configure.go" beforeDir="false" afterPath="$PROJECT_DIR$/http/handler/registries/registry_configure.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/http/handler/registries/registry_create.go" beforeDir="false" afterPath="$PROJECT_DIR$/http/handler/registries/registry_create.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/http/handler/registries/registry_delete.go" beforeDir="false" afterPath="$PROJECT_DIR$/http/handler/registries/registry_delete.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/http/handler/registries/registry_inspect.go" beforeDir="false" afterPath="$PROJECT_DIR$/http/handler/registries/registry_inspect.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/http/handler/registries/registry_list.go" beforeDir="false" afterPath="$PROJECT_DIR$/http/handler/registries/registry_list.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/http/handler/registries/registry_update.go" beforeDir="false" afterPath="$PROJECT_DIR$/http/handler/registries/registry_update.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/http/handler/registries/registry_update_access.go" beforeDir="false" afterPath="$PROJECT_DIR$/http/handler/registries/registry_update_access.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/http/handler/resourcecontrols/handler.go" beforeDir="false" afterPath="$PROJECT_DIR$/http/handler/resourcecontrols/handler.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/http/handler/resourcecontrols/resourcecontrol_create.go" beforeDir="false" afterPath="$PROJECT_DIR$/http/handler/resourcecontrols/resourcecontrol_create.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/http/handler/resourcecontrols/resourcecontrol_delete.go" beforeDir="false" afterPath="$PROJECT_DIR$/http/handler/resourcecontrols/resourcecontrol_delete.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/http/handler/resourcecontrols/resourcecontrol_update.go" beforeDir="false" afterPath="$PROJECT_DIR$/http/handler/resourcecontrols/resourcecontrol_update.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/http/handler/schedules/handler.go" beforeDir="false" afterPath="$PROJECT_DIR$/http/handler/schedules/handler.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/http/handler/schedules/schedule_create.go" beforeDir="false" afterPath="$PROJECT_DIR$/http/handler/schedules/schedule_create.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/http/handler/schedules/schedule_delete.go" beforeDir="false" afterPath="$PROJECT_DIR$/http/handler/schedules/schedule_delete.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/http/handler/schedules/schedule_file.go" beforeDir="false" afterPath="$PROJECT_DIR$/http/handler/schedules/schedule_file.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/http/handler/schedules/schedule_inspect.go" beforeDir="false" afterPath="$PROJECT_DIR$/http/handler/schedules/schedule_inspect.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/http/handler/schedules/schedule_list.go" beforeDir="false" afterPath="$PROJECT_DIR$/http/handler/schedules/schedule_list.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/http/handler/schedules/schedule_tasks.go" beforeDir="false" afterPath="$PROJECT_DIR$/http/handler/schedules/schedule_tasks.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/http/handler/schedules/schedule_update.go" beforeDir="false" afterPath="$PROJECT_DIR$/http/handler/schedules/schedule_update.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/http/handler/settings/handler.go" beforeDir="false" afterPath="$PROJECT_DIR$/http/handler/settings/handler.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/http/handler/settings/settings_ldap_check.go" beforeDir="false" afterPath="$PROJECT_DIR$/http/handler/settings/settings_ldap_check.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/http/handler/settings/settings_public.go" beforeDir="false" afterPath="$PROJECT_DIR$/http/handler/settings/settings_public.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/http/handler/settings/settings_update.go" beforeDir="false" afterPath="$PROJECT_DIR$/http/handler/settings/settings_update.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/http/handler/stacks/create_compose_stack.go" beforeDir="false" afterPath="$PROJECT_DIR$/http/handler/stacks/create_compose_stack.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/http/handler/stacks/create_swarm_stack.go" beforeDir="false" afterPath="$PROJECT_DIR$/http/handler/stacks/create_swarm_stack.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/http/handler/stacks/handler.go" beforeDir="false" afterPath="$PROJECT_DIR$/http/handler/stacks/handler.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/http/handler/stacks/stack_create.go" beforeDir="false" afterPath="$PROJECT_DIR$/http/handler/stacks/stack_create.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/http/handler/stacks/stack_delete.go" beforeDir="false" afterPath="$PROJECT_DIR$/http/handler/stacks/stack_delete.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/http/handler/stacks/stack_file.go" beforeDir="false" afterPath="$PROJECT_DIR$/http/handler/stacks/stack_file.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/http/handler/stacks/stack_inspect.go" beforeDir="false" afterPath="$PROJECT_DIR$/http/handler/stacks/stack_inspect.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/http/handler/stacks/stack_list.go" beforeDir="false" afterPath="$PROJECT_DIR$/http/handler/stacks/stack_list.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/http/handler/stacks/stack_migrate.go" beforeDir="false" afterPath="$PROJECT_DIR$/http/handler/stacks/stack_migrate.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/http/handler/stacks/stack_update.go" beforeDir="false" afterPath="$PROJECT_DIR$/http/handler/stacks/stack_update.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/http/handler/status/handler.go" beforeDir="false" afterPath="$PROJECT_DIR$/http/handler/status/handler.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/http/handler/tags/handler.go" beforeDir="false" afterPath="$PROJECT_DIR$/http/handler/tags/handler.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/http/handler/tags/tag_create.go" beforeDir="false" afterPath="$PROJECT_DIR$/http/handler/tags/tag_create.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/http/handler/tags/tag_delete.go" beforeDir="false" afterPath="$PROJECT_DIR$/http/handler/tags/tag_delete.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/http/handler/teammemberships/handler.go" beforeDir="false" afterPath="$PROJECT_DIR$/http/handler/teammemberships/handler.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/http/handler/teammemberships/teammembership_create.go" beforeDir="false" afterPath="$PROJECT_DIR$/http/handler/teammemberships/teammembership_create.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/http/handler/teammemberships/teammembership_delete.go" beforeDir="false" afterPath="$PROJECT_DIR$/http/handler/teammemberships/teammembership_delete.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/http/handler/teammemberships/teammembership_list.go" beforeDir="false" afterPath="$PROJECT_DIR$/http/handler/teammemberships/teammembership_list.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/http/handler/teammemberships/teammembership_update.go" beforeDir="false" afterPath="$PROJECT_DIR$/http/handler/teammemberships/teammembership_update.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/http/handler/teams/handler.go" beforeDir="false" afterPath="$PROJECT_DIR$/http/handler/teams/handler.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/http/handler/teams/team_create.go" beforeDir="false" afterPath="$PROJECT_DIR$/http/handler/teams/team_create.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/http/handler/teams/team_delete.go" beforeDir="false" afterPath="$PROJECT_DIR$/http/handler/teams/team_delete.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/http/handler/teams/team_inspect.go" beforeDir="false" afterPath="$PROJECT_DIR$/http/handler/teams/team_inspect.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/http/handler/teams/team_list.go" beforeDir="false" afterPath="$PROJECT_DIR$/http/handler/teams/team_list.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/http/handler/teams/team_memberships.go" beforeDir="false" afterPath="$PROJECT_DIR$/http/handler/teams/team_memberships.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/http/handler/teams/team_update.go" beforeDir="false" afterPath="$PROJECT_DIR$/http/handler/teams/team_update.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/http/handler/templates/handler.go" beforeDir="false" afterPath="$PROJECT_DIR$/http/handler/templates/handler.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/http/handler/templates/template_create.go" beforeDir="false" afterPath="$PROJECT_DIR$/http/handler/templates/template_create.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/http/handler/templates/template_delete.go" beforeDir="false" afterPath="$PROJECT_DIR$/http/handler/templates/template_delete.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/http/handler/templates/template_inspect.go" beforeDir="false" afterPath="$PROJECT_DIR$/http/handler/templates/template_inspect.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/http/handler/templates/template_list.go" beforeDir="false" afterPath="$PROJECT_DIR$/http/handler/templates/template_list.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/http/handler/templates/template_update.go" beforeDir="false" afterPath="$PROJECT_DIR$/http/handler/templates/template_update.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/http/handler/upload/handler.go" beforeDir="false" afterPath="$PROJECT_DIR$/http/handler/upload/handler.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/http/handler/upload/upload_tls.go" beforeDir="false" afterPath="$PROJECT_DIR$/http/handler/upload/upload_tls.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/http/handler/users/admin_check.go" beforeDir="false" afterPath="$PROJECT_DIR$/http/handler/users/admin_check.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/http/handler/users/admin_init.go" beforeDir="false" afterPath="$PROJECT_DIR$/http/handler/users/admin_init.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/http/handler/users/handler.go" beforeDir="false" afterPath="$PROJECT_DIR$/http/handler/users/handler.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/http/handler/users/user_create.go" beforeDir="false" afterPath="$PROJECT_DIR$/http/handler/users/user_create.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/http/handler/users/user_delete.go" beforeDir="false" afterPath="$PROJECT_DIR$/http/handler/users/user_delete.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/http/handler/users/user_inspect.go" beforeDir="false" afterPath="$PROJECT_DIR$/http/handler/users/user_inspect.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/http/handler/users/user_list.go" beforeDir="false" afterPath="$PROJECT_DIR$/http/handler/users/user_list.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/http/handler/users/user_memberships.go" beforeDir="false" afterPath="$PROJECT_DIR$/http/handler/users/user_memberships.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/http/handler/users/user_update.go" beforeDir="false" afterPath="$PROJECT_DIR$/http/handler/users/user_update.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/http/handler/users/user_update_password.go" beforeDir="false" afterPath="$PROJECT_DIR$/http/handler/users/user_update_password.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/http/handler/webhooks/handler.go" beforeDir="false" afterPath="$PROJECT_DIR$/http/handler/webhooks/handler.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/http/handler/webhooks/webhook_create.go" beforeDir="false" afterPath="$PROJECT_DIR$/http/handler/webhooks/webhook_create.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/http/handler/webhooks/webhook_delete.go" beforeDir="false" afterPath="$PROJECT_DIR$/http/handler/webhooks/webhook_delete.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/http/handler/webhooks/webhook_execute.go" beforeDir="false" afterPath="$PROJECT_DIR$/http/handler/webhooks/webhook_execute.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/http/handler/webhooks/webhook_list.go" beforeDir="false" afterPath="$PROJECT_DIR$/http/handler/webhooks/webhook_list.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/http/handler/websocket/handler.go" beforeDir="false" afterPath="$PROJECT_DIR$/http/handler/websocket/handler.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/http/handler/websocket/websocket_exec.go" beforeDir="false" afterPath="$PROJECT_DIR$/http/handler/websocket/websocket_exec.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/http/proxy/access_control.go" beforeDir="false" afterPath="$PROJECT_DIR$/http/proxy/access_control.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/http/proxy/azure_transport.go" beforeDir="false" afterPath="$PROJECT_DIR$/http/proxy/azure_transport.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/http/proxy/build.go" beforeDir="false" afterPath="$PROJECT_DIR$/http/proxy/build.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/http/proxy/configs.go" beforeDir="false" afterPath="$PROJECT_DIR$/http/proxy/configs.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/http/proxy/containers.go" beforeDir="false" afterPath="$PROJECT_DIR$/http/proxy/containers.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/http/proxy/docker_transport.go" beforeDir="false" afterPath="$PROJECT_DIR$/http/proxy/docker_transport.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/http/proxy/factory.go" beforeDir="false" afterPath="$PROJECT_DIR$/http/proxy/factory.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/http/proxy/manager.go" beforeDir="false" afterPath="$PROJECT_DIR$/http/proxy/manager.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/http/proxy/networks.go" beforeDir="false" afterPath="$PROJECT_DIR$/http/proxy/networks.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/http/proxy/registry.go" beforeDir="false" afterPath="$PROJECT_DIR$/http/proxy/registry.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/http/proxy/response.go" beforeDir="false" afterPath="$PROJECT_DIR$/http/proxy/response.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/http/proxy/secrets.go" beforeDir="false" afterPath="$PROJECT_DIR$/http/proxy/secrets.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/http/proxy/services.go" beforeDir="false" afterPath="$PROJECT_DIR$/http/proxy/services.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/http/proxy/tasks.go" beforeDir="false" afterPath="$PROJECT_DIR$/http/proxy/tasks.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/http/proxy/volumes.go" beforeDir="false" afterPath="$PROJECT_DIR$/http/proxy/volumes.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/http/security/authorization.go" beforeDir="false" afterPath="$PROJECT_DIR$/http/security/authorization.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/http/security/bouncer.go" beforeDir="false" afterPath="$PROJECT_DIR$/http/security/bouncer.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/http/security/context.go" beforeDir="false" afterPath="$PROJECT_DIR$/http/security/context.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/http/security/filter.go" beforeDir="false" afterPath="$PROJECT_DIR$/http/security/filter.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/http/security/rate_limiter.go" beforeDir="false" afterPath="$PROJECT_DIR$/http/security/rate_limiter.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/http/server.go" beforeDir="false" afterPath="$PROJECT_DIR$/http/server.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jwt/jwt.go" beforeDir="false" afterPath="$PROJECT_DIR$/jwt/jwt.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ldap/ldap.go" beforeDir="false" afterPath="$PROJECT_DIR$/ldap/ldap.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libcompose/compose_stack.go" beforeDir="false" afterPath="$PROJECT_DIR$/libcompose/compose_stack.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/portainer.go" beforeDir="false" afterPath="$PROJECT_DIR$/portainer.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/netfirms/Laem-Chabang/CONTRIBUTING.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/netfirms/Laem-Chabang/CONTRIBUTING.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/netfirms/Laem-Chabang/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/netfirms/Laem-Chabang/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/netfirms/Laem-Chabang/api/bolt/datastore.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/netfirms/Laem-Chabang/api/bolt/datastore.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/netfirms/Laem-Chabang/api/bolt/dockerhub/dockerhub.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/netfirms/Laem-Chabang/api/bolt/dockerhub/dockerhub.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/netfirms/Laem-Chabang/api/bolt/endpoint/endpoint.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/netfirms/Laem-Chabang/api/bolt/endpoint/endpoint.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/netfirms/Laem-Chabang/api/bolt/endpointgroup/endpointgroup.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/netfirms/Laem-Chabang/api/bolt/endpointgroup/endpointgroup.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/netfirms/Laem-Chabang/api/bolt/extension/extension.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/netfirms/Laem-Chabang/api/bolt/extension/extension.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/netfirms/Laem-Chabang/api/bolt/internal/db.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/netfirms/Laem-Chabang/api/bolt/internal/db.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/netfirms/Laem-Chabang/api/bolt/migrator/migrate_dbversion0.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/netfirms/Laem-Chabang/api/bolt/migrator/migrate_dbversion0.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/netfirms/Laem-Chabang/api/bolt/migrator/migrate_dbversion1.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/netfirms/Laem-Chabang/api/bolt/migrator/migrate_dbversion1.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/netfirms/Laem-Chabang/api/bolt/migrator/migrate_dbversion10.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/netfirms/Laem-Chabang/api/bolt/migrator/migrate_dbversion10.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/netfirms/Laem-Chabang/api/bolt/migrator/migrate_dbversion11.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/netfirms/Laem-Chabang/api/bolt/migrator/migrate_dbversion11.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/netfirms/Laem-Chabang/api/bolt/migrator/migrate_dbversion12.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/netfirms/Laem-Chabang/api/bolt/migrator/migrate_dbversion12.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/netfirms/Laem-Chabang/api/bolt/migrator/migrate_dbversion14.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/netfirms/Laem-Chabang/api/bolt/migrator/migrate_dbversion14.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/netfirms/Laem-Chabang/api/bolt/migrator/migrate_dbversion2.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/netfirms/Laem-Chabang/api/bolt/migrator/migrate_dbversion2.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/netfirms/Laem-Chabang/api/bolt/migrator/migrate_dbversion3.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/netfirms/Laem-Chabang/api/bolt/migrator/migrate_dbversion3.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/netfirms/Laem-Chabang/api/bolt/migrator/migrate_dbversion7.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/netfirms/Laem-Chabang/api/bolt/migrator/migrate_dbversion7.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/netfirms/Laem-Chabang/api/bolt/migrator/migrate_dbversion8.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/netfirms/Laem-Chabang/api/bolt/migrator/migrate_dbversion8.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/netfirms/Laem-Chabang/api/bolt/migrator/migrate_dbversion9.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/netfirms/Laem-Chabang/api/bolt/migrator/migrate_dbversion9.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/netfirms/Laem-Chabang/api/bolt/migrator/migrator.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/netfirms/Laem-Chabang/api/bolt/migrator/migrator.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/netfirms/Laem-Chabang/api/bolt/registry/registry.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/netfirms/Laem-Chabang/api/bolt/registry/registry.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/netfirms/Laem-Chabang/api/bolt/resourcecontrol/resourcecontrol.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/netfirms/Laem-Chabang/api/bolt/resourcecontrol/resourcecontrol.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/netfirms/Laem-Chabang/api/bolt/schedule/schedule.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/netfirms/Laem-Chabang/api/bolt/schedule/schedule.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/netfirms/Laem-Chabang/api/bolt/settings/settings.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/netfirms/Laem-Chabang/api/bolt/settings/settings.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/netfirms/Laem-Chabang/api/bolt/stack/stack.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/netfirms/Laem-Chabang/api/bolt/stack/stack.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/netfirms/Laem-Chabang/api/bolt/tag/tag.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/netfirms/Laem-Chabang/api/bolt/tag/tag.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/netfirms/Laem-Chabang/api/bolt/team/team.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/netfirms/Laem-Chabang/api/bolt/team/team.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/netfirms/Laem-Chabang/api/bolt/teammembership/teammembership.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/netfirms/Laem-Chabang/api/bolt/teammembership/teammembership.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/netfirms/Laem-Chabang/api/bolt/template/template.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/netfirms/Laem-Chabang/api/bolt/template/template.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/netfirms/Laem-Chabang/api/bolt/user/user.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/netfirms/Laem-Chabang/api/bolt/user/user.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/netfirms/Laem-Chabang/api/bolt/version/version.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/netfirms/Laem-Chabang/api/bolt/version/version.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/netfirms/Laem-Chabang/api/bolt/webhook/webhook.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/netfirms/Laem-Chabang/api/bolt/webhook/webhook.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/netfirms/Laem-Chabang/api/cli/cli.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/netfirms/Laem-Chabang/api/cli/cli.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/netfirms/Laem-Chabang/api/cli/pairlist.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/netfirms/Laem-Chabang/api/cli/pairlist.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/netfirms/Laem-Chabang/api/cmd/portainer/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/netfirms/Laem-Chabang/api/cmd/portainer/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/netfirms/Laem-Chabang/api/cron/job_endpoint_sync.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/netfirms/Laem-Chabang/api/cron/job_endpoint_sync.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/netfirms/Laem-Chabang/api/cron/job_script_execution.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/netfirms/Laem-Chabang/api/cron/job_script_execution.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/netfirms/Laem-Chabang/api/cron/job_snapshot.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/netfirms/Laem-Chabang/api/cron/job_snapshot.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/netfirms/Laem-Chabang/api/cron/scheduler.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/netfirms/Laem-Chabang/api/cron/scheduler.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/netfirms/Laem-Chabang/api/docker/client.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/netfirms/Laem-Chabang/api/docker/client.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/netfirms/Laem-Chabang/api/docker/job.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/netfirms/Laem-Chabang/api/docker/job.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/netfirms/Laem-Chabang/api/docker/snapshot.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/netfirms/Laem-Chabang/api/docker/snapshot.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/netfirms/Laem-Chabang/api/docker/snapshotter.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/netfirms/Laem-Chabang/api/docker/snapshotter.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/netfirms/Laem-Chabang/api/exec/extension.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/netfirms/Laem-Chabang/api/exec/extension.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/netfirms/Laem-Chabang/api/exec/swarm_stack.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/netfirms/Laem-Chabang/api/exec/swarm_stack.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/netfirms/Laem-Chabang/api/filesystem/filesystem.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/netfirms/Laem-Chabang/api/filesystem/filesystem.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/netfirms/Laem-Chabang/api/http/client/client.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/netfirms/Laem-Chabang/api/http/client/client.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/netfirms/Laem-Chabang/api/http/handler/auth/authenticate.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/netfirms/Laem-Chabang/api/http/handler/auth/authenticate.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/netfirms/Laem-Chabang/api/http/handler/auth/handler.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/netfirms/Laem-Chabang/api/http/handler/auth/handler.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/netfirms/Laem-Chabang/api/http/handler/dockerhub/dockerhub_update.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/netfirms/Laem-Chabang/api/http/handler/dockerhub/dockerhub_update.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/netfirms/Laem-Chabang/api/http/handler/dockerhub/handler.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/netfirms/Laem-Chabang/api/http/handler/dockerhub/handler.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/netfirms/Laem-Chabang/api/http/handler/endpointgroups/endpointgroup_create.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/netfirms/Laem-Chabang/api/http/handler/endpointgroups/endpointgroup_create.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/netfirms/Laem-Chabang/api/http/handler/endpointgroups/endpointgroup_delete.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/netfirms/Laem-Chabang/api/http/handler/endpointgroups/endpointgroup_delete.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/netfirms/Laem-Chabang/api/http/handler/endpointgroups/endpointgroup_inspect.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/netfirms/Laem-Chabang/api/http/handler/endpointgroups/endpointgroup_inspect.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/netfirms/Laem-Chabang/api/http/handler/endpointgroups/endpointgroup_list.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/netfirms/Laem-Chabang/api/http/handler/endpointgroups/endpointgroup_list.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/netfirms/Laem-Chabang/api/http/handler/endpointgroups/endpointgroup_update.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/netfirms/Laem-Chabang/api/http/handler/endpointgroups/endpointgroup_update.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/netfirms/Laem-Chabang/api/http/handler/endpointgroups/endpointgroup_update_access.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/netfirms/Laem-Chabang/api/http/handler/endpointgroups/endpointgroup_update_access.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/netfirms/Laem-Chabang/api/http/handler/endpointgroups/handler.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/netfirms/Laem-Chabang/api/http/handler/endpointgroups/handler.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/netfirms/Laem-Chabang/api/http/handler/endpointproxy/handler.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/netfirms/Laem-Chabang/api/http/handler/endpointproxy/handler.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/netfirms/Laem-Chabang/api/http/handler/endpointproxy/proxy_azure.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/netfirms/Laem-Chabang/api/http/handler/endpointproxy/proxy_azure.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/netfirms/Laem-Chabang/api/http/handler/endpointproxy/proxy_docker.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/netfirms/Laem-Chabang/api/http/handler/endpointproxy/proxy_docker.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/netfirms/Laem-Chabang/api/http/handler/endpointproxy/proxy_storidge.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/netfirms/Laem-Chabang/api/http/handler/endpointproxy/proxy_storidge.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/netfirms/Laem-Chabang/api/http/handler/endpoints/endpoint_create.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/netfirms/Laem-Chabang/api/http/handler/endpoints/endpoint_create.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/netfirms/Laem-Chabang/api/http/handler/endpoints/endpoint_delete.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/netfirms/Laem-Chabang/api/http/handler/endpoints/endpoint_delete.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/netfirms/Laem-Chabang/api/http/handler/endpoints/endpoint_extension_add.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/netfirms/Laem-Chabang/api/http/handler/endpoints/endpoint_extension_add.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/netfirms/Laem-Chabang/api/http/handler/endpoints/endpoint_extension_remove.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/netfirms/Laem-Chabang/api/http/handler/endpoints/endpoint_extension_remove.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/netfirms/Laem-Chabang/api/http/handler/endpoints/endpoint_inspect.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/netfirms/Laem-Chabang/api/http/handler/endpoints/endpoint_inspect.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/netfirms/Laem-Chabang/api/http/handler/endpoints/endpoint_job.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/netfirms/Laem-Chabang/api/http/handler/endpoints/endpoint_job.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/netfirms/Laem-Chabang/api/http/handler/endpoints/endpoint_list.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/netfirms/Laem-Chabang/api/http/handler/endpoints/endpoint_list.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/netfirms/Laem-Chabang/api/http/handler/endpoints/endpoint_snapshot.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/netfirms/Laem-Chabang/api/http/handler/endpoints/endpoint_snapshot.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/netfirms/Laem-Chabang/api/http/handler/endpoints/endpoint_snapshots.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/netfirms/Laem-Chabang/api/http/handler/endpoints/endpoint_snapshots.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/netfirms/Laem-Chabang/api/http/handler/endpoints/endpoint_update.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/netfirms/Laem-Chabang/api/http/handler/endpoints/endpoint_update.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/netfirms/Laem-Chabang/api/http/handler/endpoints/endpoint_update_access.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/netfirms/Laem-Chabang/api/http/handler/endpoints/endpoint_update_access.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/netfirms/Laem-Chabang/api/http/handler/endpoints/handler.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/netfirms/Laem-Chabang/api/http/handler/endpoints/handler.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/netfirms/Laem-Chabang/api/http/handler/extensions/extension_create.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/netfirms/Laem-Chabang/api/http/handler/extensions/extension_create.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/netfirms/Laem-Chabang/api/http/handler/extensions/extension_delete.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/netfirms/Laem-Chabang/api/http/handler/extensions/extension_delete.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/netfirms/Laem-Chabang/api/http/handler/extensions/extension_inspect.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/netfirms/Laem-Chabang/api/http/handler/extensions/extension_inspect.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/netfirms/Laem-Chabang/api/http/handler/extensions/extension_list.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/netfirms/Laem-Chabang/api/http/handler/extensions/extension_list.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/netfirms/Laem-Chabang/api/http/handler/extensions/extension_update.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/netfirms/Laem-Chabang/api/http/handler/extensions/extension_update.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/netfirms/Laem-Chabang/api/http/handler/extensions/handler.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/netfirms/Laem-Chabang/api/http/handler/extensions/handler.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/netfirms/Laem-Chabang/api/http/handler/handler.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/netfirms/Laem-Chabang/api/http/handler/handler.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/netfirms/Laem-Chabang/api/http/handler/motd/handler.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/netfirms/Laem-Chabang/api/http/handler/motd/handler.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/netfirms/Laem-Chabang/api/http/handler/motd/motd.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/netfirms/Laem-Chabang/api/http/handler/motd/motd.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/netfirms/Laem-Chabang/api/http/handler/registries/handler.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/netfirms/Laem-Chabang/api/http/handler/registries/handler.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/netfirms/Laem-Chabang/api/http/handler/registries/proxy.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/netfirms/Laem-Chabang/api/http/handler/registries/proxy.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/netfirms/Laem-Chabang/api/http/handler/registries/registry_configure.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/netfirms/Laem-Chabang/api/http/handler/registries/registry_configure.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/netfirms/Laem-Chabang/api/http/handler/registries/registry_create.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/netfirms/Laem-Chabang/api/http/handler/registries/registry_create.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/netfirms/Laem-Chabang/api/http/handler/registries/registry_delete.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/netfirms/Laem-Chabang/api/http/handler/registries/registry_delete.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/netfirms/Laem-Chabang/api/http/handler/registries/registry_inspect.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/netfirms/Laem-Chabang/api/http/handler/registries/registry_inspect.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/netfirms/Laem-Chabang/api/http/handler/registries/registry_list.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/netfirms/Laem-Chabang/api/http/handler/registries/registry_list.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/netfirms/Laem-Chabang/api/http/handler/registries/registry_update.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/netfirms/Laem-Chabang/api/http/handler/registries/registry_update.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/netfirms/Laem-Chabang/api/http/handler/registries/registry_update_access.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/netfirms/Laem-Chabang/api/http/handler/registries/registry_update_access.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/netfirms/Laem-Chabang/api/http/handler/resourcecontrols/handler.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/netfirms/Laem-Chabang/api/http/handler/resourcecontrols/handler.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/netfirms/Laem-Chabang/api/http/handler/resourcecontrols/resourcecontrol_create.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/netfirms/Laem-Chabang/api/http/handler/resourcecontrols/resourcecontrol_create.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/netfirms/Laem-Chabang/api/http/handler/resourcecontrols/resourcecontrol_delete.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/netfirms/Laem-Chabang/api/http/handler/resourcecontrols/resourcecontrol_delete.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/netfirms/Laem-Chabang/api/http/handler/resourcecontrols/resourcecontrol_update.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/netfirms/Laem-Chabang/api/http/handler/resourcecontrols/resourcecontrol_update.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/netfirms/Laem-Chabang/api/http/handler/schedules/handler.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/netfirms/Laem-Chabang/api/http/handler/schedules/handler.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/netfirms/Laem-Chabang/api/http/handler/schedules/schedule_create.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/netfirms/Laem-Chabang/api/http/handler/schedules/schedule_create.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/netfirms/Laem-Chabang/api/http/handler/schedules/schedule_delete.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/netfirms/Laem-Chabang/api/http/handler/schedules/schedule_delete.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/netfirms/Laem-Chabang/api/http/handler/schedules/schedule_file.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/netfirms/Laem-Chabang/api/http/handler/schedules/schedule_file.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/netfirms/Laem-Chabang/api/http/handler/schedules/schedule_inspect.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/netfirms/Laem-Chabang/api/http/handler/schedules/schedule_inspect.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/netfirms/Laem-Chabang/api/http/handler/schedules/schedule_list.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/netfirms/Laem-Chabang/api/http/handler/schedules/schedule_list.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/netfirms/Laem-Chabang/api/http/handler/schedules/schedule_tasks.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/netfirms/Laem-Chabang/api/http/handler/schedules/schedule_tasks.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/netfirms/Laem-Chabang/api/http/handler/schedules/schedule_update.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/netfirms/Laem-Chabang/api/http/handler/schedules/schedule_update.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/netfirms/Laem-Chabang/api/http/handler/settings/handler.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/netfirms/Laem-Chabang/api/http/handler/settings/handler.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/netfirms/Laem-Chabang/api/http/handler/settings/settings_ldap_check.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/netfirms/Laem-Chabang/api/http/handler/settings/settings_ldap_check.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/netfirms/Laem-Chabang/api/http/handler/settings/settings_public.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/netfirms/Laem-Chabang/api/http/handler/settings/settings_public.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/netfirms/Laem-Chabang/api/http/handler/settings/settings_update.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/netfirms/Laem-Chabang/api/http/handler/settings/settings_update.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/netfirms/Laem-Chabang/api/http/handler/stacks/create_compose_stack.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/netfirms/Laem-Chabang/api/http/handler/stacks/create_compose_stack.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/netfirms/Laem-Chabang/api/http/handler/stacks/create_swarm_stack.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/netfirms/Laem-Chabang/api/http/handler/stacks/create_swarm_stack.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/netfirms/Laem-Chabang/api/http/handler/stacks/handler.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/netfirms/Laem-Chabang/api/http/handler/stacks/handler.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/netfirms/Laem-Chabang/api/http/handler/stacks/stack_create.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/netfirms/Laem-Chabang/api/http/handler/stacks/stack_create.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/netfirms/Laem-Chabang/api/http/handler/stacks/stack_delete.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/netfirms/Laem-Chabang/api/http/handler/stacks/stack_delete.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/netfirms/Laem-Chabang/api/http/handler/stacks/stack_file.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/netfirms/Laem-Chabang/api/http/handler/stacks/stack_file.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/netfirms/Laem-Chabang/api/http/handler/stacks/stack_inspect.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/netfirms/Laem-Chabang/api/http/handler/stacks/stack_inspect.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/netfirms/Laem-Chabang/api/http/handler/stacks/stack_list.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/netfirms/Laem-Chabang/api/http/handler/stacks/stack_list.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/netfirms/Laem-Chabang/api/http/handler/stacks/stack_migrate.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/netfirms/Laem-Chabang/api/http/handler/stacks/stack_migrate.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/netfirms/Laem-Chabang/api/http/handler/stacks/stack_update.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/netfirms/Laem-Chabang/api/http/handler/stacks/stack_update.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/netfirms/Laem-Chabang/api/http/handler/status/handler.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/netfirms/Laem-Chabang/api/http/handler/status/handler.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/netfirms/Laem-Chabang/api/http/handler/tags/handler.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/netfirms/Laem-Chabang/api/http/handler/tags/handler.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/netfirms/Laem-Chabang/api/http/handler/tags/tag_create.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/netfirms/Laem-Chabang/api/http/handler/tags/tag_create.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/netfirms/Laem-Chabang/api/http/handler/tags/tag_delete.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/netfirms/Laem-Chabang/api/http/handler/tags/tag_delete.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/netfirms/Laem-Chabang/api/http/handler/teammemberships/handler.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/netfirms/Laem-Chabang/api/http/handler/teammemberships/handler.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/netfirms/Laem-Chabang/api/http/handler/teammemberships/teammembership_create.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/netfirms/Laem-Chabang/api/http/handler/teammemberships/teammembership_create.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/netfirms/Laem-Chabang/api/http/handler/teammemberships/teammembership_delete.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/netfirms/Laem-Chabang/api/http/handler/teammemberships/teammembership_delete.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/netfirms/Laem-Chabang/api/http/handler/teammemberships/teammembership_list.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/netfirms/Laem-Chabang/api/http/handler/teammemberships/teammembership_list.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/netfirms/Laem-Chabang/api/http/handler/teammemberships/teammembership_update.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/netfirms/Laem-Chabang/api/http/handler/teammemberships/teammembership_update.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/netfirms/Laem-Chabang/api/http/handler/teams/handler.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/netfirms/Laem-Chabang/api/http/handler/teams/handler.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/netfirms/Laem-Chabang/api/http/handler/teams/team_create.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/netfirms/Laem-Chabang/api/http/handler/teams/team_create.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/netfirms/Laem-Chabang/api/http/handler/teams/team_delete.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/netfirms/Laem-Chabang/api/http/handler/teams/team_delete.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/netfirms/Laem-Chabang/api/http/handler/teams/team_inspect.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/netfirms/Laem-Chabang/api/http/handler/teams/team_inspect.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/netfirms/Laem-Chabang/api/http/handler/teams/team_list.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/netfirms/Laem-Chabang/api/http/handler/teams/team_list.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/netfirms/Laem-Chabang/api/http/handler/teams/team_memberships.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/netfirms/Laem-Chabang/api/http/handler/teams/team_memberships.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/netfirms/Laem-Chabang/api/http/handler/teams/team_update.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/netfirms/Laem-Chabang/api/http/handler/teams/team_update.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/netfirms/Laem-Chabang/api/http/handler/templates/handler.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/netfirms/Laem-Chabang/api/http/handler/templates/handler.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/netfirms/Laem-Chabang/api/http/handler/templates/template_create.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/netfirms/Laem-Chabang/api/http/handler/templates/template_create.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/netfirms/Laem-Chabang/api/http/handler/templates/template_delete.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/netfirms/Laem-Chabang/api/http/handler/templates/template_delete.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/netfirms/Laem-Chabang/api/http/handler/templates/template_inspect.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/netfirms/Laem-Chabang/api/http/handler/templates/template_inspect.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/netfirms/Laem-Chabang/api/http/handler/templates/template_list.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/netfirms/Laem-Chabang/api/http/handler/templates/template_list.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/netfirms/Laem-Chabang/api/http/handler/templates/template_update.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/netfirms/Laem-Chabang/api/http/handler/templates/template_update.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/netfirms/Laem-Chabang/api/http/handler/upload/handler.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/netfirms/Laem-Chabang/api/http/handler/upload/handler.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/netfirms/Laem-Chabang/api/http/handler/upload/upload_tls.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/netfirms/Laem-Chabang/api/http/handler/upload/upload_tls.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/netfirms/Laem-Chabang/api/http/handler/users/admin_check.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/netfirms/Laem-Chabang/api/http/handler/users/admin_check.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/netfirms/Laem-Chabang/api/http/handler/users/admin_init.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/netfirms/Laem-Chabang/api/http/handler/users/admin_init.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/netfirms/Laem-Chabang/api/http/handler/users/handler.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/netfirms/Laem-Chabang/api/http/handler/users/handler.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/netfirms/Laem-Chabang/api/http/handler/users/user_create.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/netfirms/Laem-Chabang/api/http/handler/users/user_create.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/netfirms/Laem-Chabang/api/http/handler/users/user_delete.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/netfirms/Laem-Chabang/api/http/handler/users/user_delete.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/netfirms/Laem-Chabang/api/http/handler/users/user_inspect.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/netfirms/Laem-Chabang/api/http/handler/users/user_inspect.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/netfirms/Laem-Chabang/api/http/handler/users/user_list.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/netfirms/Laem-Chabang/api/http/handler/users/user_list.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/netfirms/Laem-Chabang/api/http/handler/users/user_memberships.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/netfirms/Laem-Chabang/api/http/handler/users/user_memberships.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/netfirms/Laem-Chabang/api/http/handler/users/user_update.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/netfirms/Laem-Chabang/api/http/handler/users/user_update.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/netfirms/Laem-Chabang/api/http/handler/users/user_update_password.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/netfirms/Laem-Chabang/api/http/handler/users/user_update_password.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/netfirms/Laem-Chabang/api/http/handler/webhooks/handler.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/netfirms/Laem-Chabang/api/http/handler/webhooks/handler.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/netfirms/Laem-Chabang/api/http/handler/webhooks/webhook_create.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/netfirms/Laem-Chabang/api/http/handler/webhooks/webhook_create.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/netfirms/Laem-Chabang/api/http/handler/webhooks/webhook_delete.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/netfirms/Laem-Chabang/api/http/handler/webhooks/webhook_delete.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/netfirms/Laem-Chabang/api/http/handler/webhooks/webhook_execute.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/netfirms/Laem-Chabang/api/http/handler/webhooks/webhook_execute.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/netfirms/Laem-Chabang/api/http/handler/webhooks/webhook_list.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/netfirms/Laem-Chabang/api/http/handler/webhooks/webhook_list.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/netfirms/Laem-Chabang/api/http/handler/websocket/handler.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/netfirms/Laem-Chabang/api/http/handler/websocket/handler.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/netfirms/Laem-Chabang/api/http/handler/websocket/websocket_exec.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/netfirms/Laem-Chabang/api/http/handler/websocket/websocket_exec.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/netfirms/Laem-Chabang/api/http/proxy/access_control.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/netfirms/Laem-Chabang/api/http/proxy/access_control.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/netfirms/Laem-Chabang/api/http/proxy/azure_transport.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/netfirms/Laem-Chabang/api/http/proxy/azure_transport.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/netfirms/Laem-Chabang/api/http/proxy/build.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/netfirms/Laem-Chabang/api/http/proxy/build.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/netfirms/Laem-Chabang/api/http/proxy/configs.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/netfirms/Laem-Chabang/api/http/proxy/configs.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/netfirms/Laem-Chabang/api/http/proxy/containers.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/netfirms/Laem-Chabang/api/http/proxy/containers.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/netfirms/Laem-Chabang/api/http/proxy/docker_transport.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/netfirms/Laem-Chabang/api/http/proxy/docker_transport.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/netfirms/Laem-Chabang/api/http/proxy/factory.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/netfirms/Laem-Chabang/api/http/proxy/factory.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/netfirms/Laem-Chabang/api/http/proxy/manager.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/netfirms/Laem-Chabang/api/http/proxy/manager.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/netfirms/Laem-Chabang/api/http/proxy/networks.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/netfirms/Laem-Chabang/api/http/proxy/networks.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/netfirms/Laem-Chabang/api/http/proxy/registry.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/netfirms/Laem-Chabang/api/http/proxy/registry.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/netfirms/Laem-Chabang/api/http/proxy/response.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/netfirms/Laem-Chabang/api/http/proxy/response.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/netfirms/Laem-Chabang/api/http/proxy/secrets.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/netfirms/Laem-Chabang/api/http/proxy/secrets.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/netfirms/Laem-Chabang/api/http/proxy/services.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/netfirms/Laem-Chabang/api/http/proxy/services.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/netfirms/Laem-Chabang/api/http/proxy/tasks.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/netfirms/Laem-Chabang/api/http/proxy/tasks.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/netfirms/Laem-Chabang/api/http/proxy/volumes.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/netfirms/Laem-Chabang/api/http/proxy/volumes.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/netfirms/Laem-Chabang/api/http/security/authorization.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/netfirms/Laem-Chabang/api/http/security/authorization.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/netfirms/Laem-Chabang/api/http/security/bouncer.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/netfirms/Laem-Chabang/api/http/security/bouncer.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/netfirms/Laem-Chabang/api/http/security/context.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/netfirms/Laem-Chabang/api/http/security/context.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/netfirms/Laem-Chabang/api/http/security/filter.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/netfirms/Laem-Chabang/api/http/security/filter.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/netfirms/Laem-Chabang/api/http/security/rate_limiter.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/netfirms/Laem-Chabang/api/http/security/rate_limiter.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/netfirms/Laem-Chabang/api/http/server.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/netfirms/Laem-Chabang/api/http/server.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/netfirms/Laem-Chabang/api/jwt/jwt.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/netfirms/Laem-Chabang/api/jwt/jwt.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/netfirms/Laem-Chabang/api/ldap/ldap.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/netfirms/Laem-Chabang/api/ldap/ldap.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/netfirms/Laem-Chabang/api/libcompose/compose_stack.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/netfirms/Laem-Chabang/api/libcompose/compose_stack.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/netfirms/Laem-Chabang/api/swagger.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/netfirms/Laem-Chabang/api/swagger.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/netfirms/Laem-Chabang/app/portainer/components/forms/template-form/templateForm.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/netfirms/Laem-Chabang/app/portainer/components/forms/template-form/templateForm.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/netfirms/Laem-Chabang/app/portainer/views/about/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/netfirms/Laem-Chabang/app/portainer/views/about/about.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/netfirms/Laem-Chabang/app/portainer/views/stacks/create/createstack.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/netfirms/Laem-Chabang/app/portainer/views/stacks/create/createstack.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/netfirms/Laem-Chabang/distribution/portainer.spec" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/netfirms/Laem-Chabang/distribution/portainer.spec" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/netfirms/Laem-Chabang/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/netfirms/Laem-Chabang/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/portainer/portainer/CONTRIBUTING.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/portainer/portainer/CONTRIBUTING.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/portainer/portainer/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/portainer/portainer/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/portainer/portainer/api/bolt/datastore.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/portainer/portainer/api/bolt/datastore.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/portainer/portainer/api/bolt/dockerhub/dockerhub.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/portainer/portainer/api/bolt/dockerhub/dockerhub.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/portainer/portainer/api/bolt/endpoint/endpoint.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/portainer/portainer/api/bolt/endpoint/endpoint.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/portainer/portainer/api/bolt/endpointgroup/endpointgroup.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/portainer/portainer/api/bolt/endpointgroup/endpointgroup.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/portainer/portainer/api/bolt/extension/extension.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/portainer/portainer/api/bolt/extension/extension.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/portainer/portainer/api/bolt/internal/db.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/portainer/portainer/api/bolt/internal/db.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/portainer/portainer/api/bolt/migrator/migrate_dbversion0.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/portainer/portainer/api/bolt/migrator/migrate_dbversion0.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/portainer/portainer/api/bolt/migrator/migrate_dbversion1.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/portainer/portainer/api/bolt/migrator/migrate_dbversion1.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/portainer/portainer/api/bolt/migrator/migrate_dbversion10.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/portainer/portainer/api/bolt/migrator/migrate_dbversion10.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/portainer/portainer/api/bolt/migrator/migrate_dbversion11.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/portainer/portainer/api/bolt/migrator/migrate_dbversion11.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/portainer/portainer/api/bolt/migrator/migrate_dbversion12.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/portainer/portainer/api/bolt/migrator/migrate_dbversion12.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/portainer/portainer/api/bolt/migrator/migrate_dbversion14.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/portainer/portainer/api/bolt/migrator/migrate_dbversion14.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/portainer/portainer/api/bolt/migrator/migrate_dbversion2.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/portainer/portainer/api/bolt/migrator/migrate_dbversion2.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/portainer/portainer/api/bolt/migrator/migrate_dbversion3.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/portainer/portainer/api/bolt/migrator/migrate_dbversion3.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/portainer/portainer/api/bolt/migrator/migrate_dbversion7.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/portainer/portainer/api/bolt/migrator/migrate_dbversion7.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/portainer/portainer/api/bolt/migrator/migrate_dbversion8.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/portainer/portainer/api/bolt/migrator/migrate_dbversion8.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/portainer/portainer/api/bolt/migrator/migrate_dbversion9.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/portainer/portainer/api/bolt/migrator/migrate_dbversion9.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/portainer/portainer/api/bolt/migrator/migrator.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/portainer/portainer/api/bolt/migrator/migrator.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/portainer/portainer/api/bolt/registry/registry.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/portainer/portainer/api/bolt/registry/registry.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/portainer/portainer/api/bolt/resourcecontrol/resourcecontrol.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/portainer/portainer/api/bolt/resourcecontrol/resourcecontrol.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/portainer/portainer/api/bolt/schedule/schedule.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/portainer/portainer/api/bolt/schedule/schedule.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/portainer/portainer/api/bolt/settings/settings.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/portainer/portainer/api/bolt/settings/settings.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/portainer/portainer/api/bolt/stack/stack.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/portainer/portainer/api/bolt/stack/stack.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/portainer/portainer/api/bolt/tag/tag.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/portainer/portainer/api/bolt/tag/tag.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/portainer/portainer/api/bolt/team/team.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/portainer/portainer/api/bolt/team/team.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/portainer/portainer/api/bolt/teammembership/teammembership.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/portainer/portainer/api/bolt/teammembership/teammembership.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/portainer/portainer/api/bolt/template/template.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/portainer/portainer/api/bolt/template/template.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/portainer/portainer/api/bolt/user/user.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/portainer/portainer/api/bolt/user/user.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/portainer/portainer/api/bolt/version/version.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/portainer/portainer/api/bolt/version/version.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/portainer/portainer/api/bolt/webhook/webhook.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/portainer/portainer/api/bolt/webhook/webhook.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/portainer/portainer/api/cli/cli.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/portainer/portainer/api/cli/cli.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/portainer/portainer/api/cli/pairlist.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/portainer/portainer/api/cli/pairlist.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/portainer/portainer/api/cmd/portainer/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/portainer/portainer/api/cmd/portainer/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/portainer/portainer/api/cron/job_endpoint_sync.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/portainer/portainer/api/cron/job_endpoint_sync.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/portainer/portainer/api/cron/job_script_execution.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/portainer/portainer/api/cron/job_script_execution.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/portainer/portainer/api/cron/job_snapshot.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/portainer/portainer/api/cron/job_snapshot.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/portainer/portainer/api/cron/scheduler.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/portainer/portainer/api/cron/scheduler.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/portainer/portainer/api/docker/client.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/portainer/portainer/api/docker/client.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/portainer/portainer/api/docker/job.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/portainer/portainer/api/docker/job.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/portainer/portainer/api/docker/snapshot.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/portainer/portainer/api/docker/snapshot.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/portainer/portainer/api/docker/snapshotter.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/portainer/portainer/api/docker/snapshotter.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/portainer/portainer/api/exec/extension.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/portainer/portainer/api/exec/extension.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/portainer/portainer/api/exec/swarm_stack.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/portainer/portainer/api/exec/swarm_stack.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/portainer/portainer/api/filesystem/filesystem.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/portainer/portainer/api/filesystem/filesystem.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/portainer/portainer/api/http/client/client.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/portainer/portainer/api/http/client/client.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/portainer/portainer/api/http/handler/auth/authenticate.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/portainer/portainer/api/http/handler/auth/authenticate.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/portainer/portainer/api/http/handler/auth/handler.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/portainer/portainer/api/http/handler/auth/handler.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/portainer/portainer/api/http/handler/dockerhub/dockerhub_update.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/portainer/portainer/api/http/handler/dockerhub/dockerhub_update.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/portainer/portainer/api/http/handler/dockerhub/handler.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/portainer/portainer/api/http/handler/dockerhub/handler.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/portainer/portainer/api/http/handler/endpointgroups/endpointgroup_create.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/portainer/portainer/api/http/handler/endpointgroups/endpointgroup_create.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/portainer/portainer/api/http/handler/endpointgroups/endpointgroup_delete.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/portainer/portainer/api/http/handler/endpointgroups/endpointgroup_delete.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/portainer/portainer/api/http/handler/endpointgroups/endpointgroup_inspect.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/portainer/portainer/api/http/handler/endpointgroups/endpointgroup_inspect.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/portainer/portainer/api/http/handler/endpointgroups/endpointgroup_list.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/portainer/portainer/api/http/handler/endpointgroups/endpointgroup_list.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/portainer/portainer/api/http/handler/endpointgroups/endpointgroup_update.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/portainer/portainer/api/http/handler/endpointgroups/endpointgroup_update.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/portainer/portainer/api/http/handler/endpointgroups/endpointgroup_update_access.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/portainer/portainer/api/http/handler/endpointgroups/endpointgroup_update_access.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/portainer/portainer/api/http/handler/endpointgroups/handler.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/portainer/portainer/api/http/handler/endpointgroups/handler.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/portainer/portainer/api/http/handler/endpointproxy/handler.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/portainer/portainer/api/http/handler/endpointproxy/handler.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/portainer/portainer/api/http/handler/endpointproxy/proxy_azure.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/portainer/portainer/api/http/handler/endpointproxy/proxy_azure.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/portainer/portainer/api/http/handler/endpointproxy/proxy_docker.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/portainer/portainer/api/http/handler/endpointproxy/proxy_docker.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/portainer/portainer/api/http/handler/endpointproxy/proxy_storidge.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/portainer/portainer/api/http/handler/endpointproxy/proxy_storidge.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/portainer/portainer/api/http/handler/endpoints/endpoint_create.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/portainer/portainer/api/http/handler/endpoints/endpoint_create.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/portainer/portainer/api/http/handler/endpoints/endpoint_delete.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/portainer/portainer/api/http/handler/endpoints/endpoint_delete.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/portainer/portainer/api/http/handler/endpoints/endpoint_extension_add.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/portainer/portainer/api/http/handler/endpoints/endpoint_extension_add.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/portainer/portainer/api/http/handler/endpoints/endpoint_extension_remove.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/portainer/portainer/api/http/handler/endpoints/endpoint_extension_remove.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/portainer/portainer/api/http/handler/endpoints/endpoint_inspect.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/portainer/portainer/api/http/handler/endpoints/endpoint_inspect.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/portainer/portainer/api/http/handler/endpoints/endpoint_job.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/portainer/portainer/api/http/handler/endpoints/endpoint_job.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/portainer/portainer/api/http/handler/endpoints/endpoint_list.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/portainer/portainer/api/http/handler/endpoints/endpoint_list.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/portainer/portainer/api/http/handler/endpoints/endpoint_snapshot.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/portainer/portainer/api/http/handler/endpoints/endpoint_snapshot.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/portainer/portainer/api/http/handler/endpoints/endpoint_snapshots.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/portainer/portainer/api/http/handler/endpoints/endpoint_snapshots.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/portainer/portainer/api/http/handler/endpoints/endpoint_update.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/portainer/portainer/api/http/handler/endpoints/endpoint_update.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/portainer/portainer/api/http/handler/endpoints/endpoint_update_access.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/portainer/portainer/api/http/handler/endpoints/endpoint_update_access.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/portainer/portainer/api/http/handler/endpoints/handler.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/portainer/portainer/api/http/handler/endpoints/handler.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/portainer/portainer/api/http/handler/extensions/extension_create.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/portainer/portainer/api/http/handler/extensions/extension_create.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/portainer/portainer/api/http/handler/extensions/extension_delete.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/portainer/portainer/api/http/handler/extensions/extension_delete.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/portainer/portainer/api/http/handler/extensions/extension_inspect.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/portainer/portainer/api/http/handler/extensions/extension_inspect.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/portainer/portainer/api/http/handler/extensions/extension_list.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/portainer/portainer/api/http/handler/extensions/extension_list.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/portainer/portainer/api/http/handler/extensions/extension_update.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/portainer/portainer/api/http/handler/extensions/extension_update.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/portainer/portainer/api/http/handler/extensions/handler.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/portainer/portainer/api/http/handler/extensions/handler.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/portainer/portainer/api/http/handler/handler.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/portainer/portainer/api/http/handler/handler.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/portainer/portainer/api/http/handler/motd/handler.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/portainer/portainer/api/http/handler/motd/handler.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/portainer/portainer/api/http/handler/motd/motd.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/portainer/portainer/api/http/handler/motd/motd.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/portainer/portainer/api/http/handler/registries/handler.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/portainer/portainer/api/http/handler/registries/handler.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/portainer/portainer/api/http/handler/registries/proxy.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/portainer/portainer/api/http/handler/registries/proxy.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/portainer/portainer/api/http/handler/registries/registry_configure.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/portainer/portainer/api/http/handler/registries/registry_configure.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/portainer/portainer/api/http/handler/registries/registry_create.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/portainer/portainer/api/http/handler/registries/registry_create.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/portainer/portainer/api/http/handler/registries/registry_delete.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/portainer/portainer/api/http/handler/registries/registry_delete.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/portainer/portainer/api/http/handler/registries/registry_inspect.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/portainer/portainer/api/http/handler/registries/registry_inspect.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/portainer/portainer/api/http/handler/registries/registry_list.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/portainer/portainer/api/http/handler/registries/registry_list.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/portainer/portainer/api/http/handler/registries/registry_update.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/portainer/portainer/api/http/handler/registries/registry_update.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/portainer/portainer/api/http/handler/registries/registry_update_access.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/portainer/portainer/api/http/handler/registries/registry_update_access.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/portainer/portainer/api/http/handler/resourcecontrols/handler.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/portainer/portainer/api/http/handler/resourcecontrols/handler.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/portainer/portainer/api/http/handler/resourcecontrols/resourcecontrol_create.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/portainer/portainer/api/http/handler/resourcecontrols/resourcecontrol_create.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/portainer/portainer/api/http/handler/resourcecontrols/resourcecontrol_delete.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/portainer/portainer/api/http/handler/resourcecontrols/resourcecontrol_delete.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/portainer/portainer/api/http/handler/resourcecontrols/resourcecontrol_update.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/portainer/portainer/api/http/handler/resourcecontrols/resourcecontrol_update.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/portainer/portainer/api/http/handler/schedules/handler.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/portainer/portainer/api/http/handler/schedules/handler.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/portainer/portainer/api/http/handler/schedules/schedule_create.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/portainer/portainer/api/http/handler/schedules/schedule_create.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/portainer/portainer/api/http/handler/schedules/schedule_delete.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/portainer/portainer/api/http/handler/schedules/schedule_delete.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/portainer/portainer/api/http/handler/schedules/schedule_file.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/portainer/portainer/api/http/handler/schedules/schedule_file.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/portainer/portainer/api/http/handler/schedules/schedule_inspect.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/portainer/portainer/api/http/handler/schedules/schedule_inspect.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/portainer/portainer/api/http/handler/schedules/schedule_list.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/portainer/portainer/api/http/handler/schedules/schedule_list.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/portainer/portainer/api/http/handler/schedules/schedule_tasks.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/portainer/portainer/api/http/handler/schedules/schedule_tasks.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/portainer/portainer/api/http/handler/schedules/schedule_update.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/portainer/portainer/api/http/handler/schedules/schedule_update.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/portainer/portainer/api/http/handler/settings/handler.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/portainer/portainer/api/http/handler/settings/handler.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/portainer/portainer/api/http/handler/settings/settings_ldap_check.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/portainer/portainer/api/http/handler/settings/settings_ldap_check.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/portainer/portainer/api/http/handler/settings/settings_public.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/portainer/portainer/api/http/handler/settings/settings_public.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/portainer/portainer/api/http/handler/settings/settings_update.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/portainer/portainer/api/http/handler/settings/settings_update.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/portainer/portainer/api/http/handler/stacks/create_compose_stack.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/portainer/portainer/api/http/handler/stacks/create_compose_stack.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/portainer/portainer/api/http/handler/stacks/create_swarm_stack.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/portainer/portainer/api/http/handler/stacks/create_swarm_stack.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/portainer/portainer/api/http/handler/stacks/handler.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/portainer/portainer/api/http/handler/stacks/handler.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/portainer/portainer/api/http/handler/stacks/stack_create.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/portainer/portainer/api/http/handler/stacks/stack_create.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/portainer/portainer/api/http/handler/stacks/stack_delete.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/portainer/portainer/api/http/handler/stacks/stack_delete.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/portainer/portainer/api/http/handler/stacks/stack_file.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/portainer/portainer/api/http/handler/stacks/stack_file.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/portainer/portainer/api/http/handler/stacks/stack_inspect.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/portainer/portainer/api/http/handler/stacks/stack_inspect.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/portainer/portainer/api/http/handler/stacks/stack_list.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/portainer/portainer/api/http/handler/stacks/stack_list.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/portainer/portainer/api/http/handler/stacks/stack_migrate.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/portainer/portainer/api/http/handler/stacks/stack_migrate.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/portainer/portainer/api/http/handler/stacks/stack_update.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/portainer/portainer/api/http/handler/stacks/stack_update.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/portainer/portainer/api/http/handler/status/handler.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/portainer/portainer/api/http/handler/status/handler.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/portainer/portainer/api/http/handler/tags/handler.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/portainer/portainer/api/http/handler/tags/handler.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/portainer/portainer/api/http/handler/tags/tag_create.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/portainer/portainer/api/http/handler/tags/tag_create.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/portainer/portainer/api/http/handler/tags/tag_delete.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/portainer/portainer/api/http/handler/tags/tag_delete.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/portainer/portainer/api/http/handler/teammemberships/handler.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/portainer/portainer/api/http/handler/teammemberships/handler.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/portainer/portainer/api/http/handler/teammemberships/teammembership_create.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/portainer/portainer/api/http/handler/teammemberships/teammembership_create.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/portainer/portainer/api/http/handler/teammemberships/teammembership_delete.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/portainer/portainer/api/http/handler/teammemberships/teammembership_delete.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/portainer/portainer/api/http/handler/teammemberships/teammembership_list.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/portainer/portainer/api/http/handler/teammemberships/teammembership_list.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/portainer/portainer/api/http/handler/teammemberships/teammembership_update.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/portainer/portainer/api/http/handler/teammemberships/teammembership_update.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/portainer/portainer/api/http/handler/teams/handler.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/portainer/portainer/api/http/handler/teams/handler.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/portainer/portainer/api/http/handler/teams/team_create.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/portainer/portainer/api/http/handler/teams/team_create.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/portainer/portainer/api/http/handler/teams/team_delete.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/portainer/portainer/api/http/handler/teams/team_delete.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/portainer/portainer/api/http/handler/teams/team_inspect.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/portainer/portainer/api/http/handler/teams/team_inspect.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/portainer/portainer/api/http/handler/teams/team_list.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/portainer/portainer/api/http/handler/teams/team_list.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/portainer/portainer/api/http/handler/teams/team_memberships.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/portainer/portainer/api/http/handler/teams/team_memberships.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/portainer/portainer/api/http/handler/teams/team_update.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/portainer/portainer/api/http/handler/teams/team_update.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/portainer/portainer/api/http/handler/templates/handler.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/portainer/portainer/api/http/handler/templates/handler.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/portainer/portainer/api/http/handler/templates/template_create.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/portainer/portainer/api/http/handler/templates/template_create.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/portainer/portainer/api/http/handler/templates/template_delete.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/portainer/portainer/api/http/handler/templates/template_delete.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/portainer/portainer/api/http/handler/templates/template_inspect.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/portainer/portainer/api/http/handler/templates/template_inspect.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/portainer/portainer/api/http/handler/templates/template_list.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/portainer/portainer/api/http/handler/templates/template_list.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/portainer/portainer/api/http/handler/templates/template_update.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/portainer/portainer/api/http/handler/templates/template_update.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/portainer/portainer/api/http/handler/upload/handler.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/portainer/portainer/api/http/handler/upload/handler.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/portainer/portainer/api/http/handler/upload/upload_tls.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/portainer/portainer/api/http/handler/upload/upload_tls.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/portainer/portainer/api/http/handler/users/admin_check.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/portainer/portainer/api/http/handler/users/admin_check.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/portainer/portainer/api/http/handler/users/admin_init.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/portainer/portainer/api/http/handler/users/admin_init.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/portainer/portainer/api/http/handler/users/handler.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/portainer/portainer/api/http/handler/users/handler.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/portainer/portainer/api/http/handler/users/user_create.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/portainer/portainer/api/http/handler/users/user_create.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/portainer/portainer/api/http/handler/users/user_delete.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/portainer/portainer/api/http/handler/users/user_delete.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/portainer/portainer/api/http/handler/users/user_inspect.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/portainer/portainer/api/http/handler/users/user_inspect.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/portainer/portainer/api/http/handler/users/user_list.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/portainer/portainer/api/http/handler/users/user_list.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/portainer/portainer/api/http/handler/users/user_memberships.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/portainer/portainer/api/http/handler/users/user_memberships.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/portainer/portainer/api/http/handler/users/user_update.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/portainer/portainer/api/http/handler/users/user_update.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/portainer/portainer/api/http/handler/users/user_update_password.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/portainer/portainer/api/http/handler/users/user_update_password.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/portainer/portainer/api/http/handler/webhooks/handler.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/portainer/portainer/api/http/handler/webhooks/handler.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/portainer/portainer/api/http/handler/webhooks/webhook_create.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/portainer/portainer/api/http/handler/webhooks/webhook_create.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/portainer/portainer/api/http/handler/webhooks/webhook_delete.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/portainer/portainer/api/http/handler/webhooks/webhook_delete.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/portainer/portainer/api/http/handler/webhooks/webhook_execute.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/portainer/portainer/api/http/handler/webhooks/webhook_execute.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/portainer/portainer/api/http/handler/webhooks/webhook_list.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/portainer/portainer/api/http/handler/webhooks/webhook_list.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/portainer/portainer/api/http/handler/websocket/handler.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/portainer/portainer/api/http/handler/websocket/handler.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/portainer/portainer/api/http/handler/websocket/websocket_exec.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/portainer/portainer/api/http/handler/websocket/websocket_exec.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/portainer/portainer/api/http/proxy/access_control.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/portainer/portainer/api/http/proxy/access_control.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/portainer/portainer/api/http/proxy/azure_transport.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/portainer/portainer/api/http/proxy/azure_transport.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/portainer/portainer/api/http/proxy/build.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/portainer/portainer/api/http/proxy/build.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/portainer/portainer/api/http/proxy/configs.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/portainer/portainer/api/http/proxy/configs.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/portainer/portainer/api/http/proxy/containers.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/portainer/portainer/api/http/proxy/containers.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/portainer/portainer/api/http/proxy/docker_transport.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/portainer/portainer/api/http/proxy/docker_transport.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/portainer/portainer/api/http/proxy/factory.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/portainer/portainer/api/http/proxy/factory.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/portainer/portainer/api/http/proxy/manager.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/portainer/portainer/api/http/proxy/manager.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/portainer/portainer/api/http/proxy/networks.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/portainer/portainer/api/http/proxy/networks.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/portainer/portainer/api/http/proxy/registry.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/portainer/portainer/api/http/proxy/registry.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/portainer/portainer/api/http/proxy/response.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/portainer/portainer/api/http/proxy/response.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/portainer/portainer/api/http/proxy/secrets.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/portainer/portainer/api/http/proxy/secrets.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/portainer/portainer/api/http/proxy/services.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/portainer/portainer/api/http/proxy/services.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/portainer/portainer/api/http/proxy/tasks.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/portainer/portainer/api/http/proxy/tasks.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/portainer/portainer/api/http/proxy/volumes.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/portainer/portainer/api/http/proxy/volumes.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/portainer/portainer/api/http/security/authorization.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/portainer/portainer/api/http/security/authorization.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/portainer/portainer/api/http/security/bouncer.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/portainer/portainer/api/http/security/bouncer.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/portainer/portainer/api/http/security/context.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/portainer/portainer/api/http/security/context.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/portainer/portainer/api/http/security/filter.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/portainer/portainer/api/http/security/filter.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/portainer/portainer/api/http/security/rate_limiter.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/portainer/portainer/api/http/security/rate_limiter.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/portainer/portainer/api/http/server.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/portainer/portainer/api/http/server.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/portainer/portainer/api/jwt/jwt.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/portainer/portainer/api/jwt/jwt.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/portainer/portainer/api/ldap/ldap.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/portainer/portainer/api/ldap/ldap.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/portainer/portainer/api/libcompose/compose_stack.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/portainer/portainer/api/libcompose/compose_stack.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/portainer/portainer/api/swagger.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/portainer/portainer/api/swagger.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/portainer/portainer/app/portainer/components/forms/template-form/templateForm.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/portainer/portainer/app/portainer/components/forms/template-form/templateForm.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/portainer/portainer/app/portainer/views/about/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/portainer/portainer/app/portainer/views/about/about.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/portainer/portainer/app/portainer/views/stacks/create/createstack.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/portainer/portainer/app/portainer/views/stacks/create/createstack.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/portainer/portainer/distribution/portainer.spec" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/portainer/portainer/distribution/portainer.spec" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/portainer/portainer/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/portainer/portainer/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/swagger.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/swagger.yaml" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/cmd/portainer/main.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="16" column="46" lean-forward="true" selection-start-line="16" selection-start-column="46" selection-end-line="16" selection-end-column="46" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/cmd/portainer/templates.json">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/github.com/portainer/portainer/api/cli/cli.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="343">
+              <caret line="26" column="48" selection-start-line="26" selection-start-column="48" selection-end-line="26" selection-end-column="48" />
+              <folding>
+                <element signature="e#13#142#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/github.com/netfirms/Laem-Chabang/api/cmd/portainer/main.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="127">
+              <caret line="286" column="18" selection-start-line="286" selection-start-column="5" selection-end-line="286" selection-end-column="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/github.com/netfirms/Laem-Chabang/api/cli/cli.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="5" column="42" lean-forward="true" selection-start-line="5" selection-start-column="42" selection-end-line="5" selection-end-column="42" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/github.com/netfirms/Laem-Chabang/api/http/server.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="140">
+              <caret line="27" column="4" selection-start-line="27" selection-start-column="4" selection-end-line="27" selection-end-column="4" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/github.com/netfirms/Laem-Chabang/api/bolt/datastore.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="323">
+              <caret line="26" column="1" lean-forward="true" selection-start-line="26" selection-start-column="1" selection-end-line="26" selection-end-column="1" />
+              <folding>
+                <element signature="e#14#1034#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/cli/cli.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-561">
+              <caret line="21" column="30" lean-forward="true" selection-start-line="21" selection-start-column="30" selection-end-line="21" selection-end-column="30" />
+              <folding>
+                <element signature="e#13#138#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/github.com/netfirms/Laem-Chabang/api/docker/job.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="157">
+              <caret line="15" column="4" selection-start-line="15" selection-start-column="4" selection-end-line="15" selection-end-column="4" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/portainer.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="420">
+              <caret line="104" column="14" selection-start-line="104" selection-start-column="14" selection-end-line="104" selection-end-column="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>username</find>
+      <find>user</find>
+      <find>Unable to locate template file on disk</find>
+      <find>--tem</find>
+      <find>initTemplates</find>
+      <find>github.com/portainer/portainer</find>
+      <find>/data</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>github.com/netfirms/Laem-Chabang/api</replace>
+    </replaceStrings>
+  </component>
+  <component name="GOROOT" path="/usr/local/go" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="GoLibraries">
+    <option name="urls">
+      <list>
+        <option value="file://$PROJECT_DIR$" />
+      </list>
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/http/handler/users/user_create.go" />
+        <option value="$PROJECT_DIR$/portainer.go" />
+        <option value="$PROJECT_DIR$/cmd/portainer/main.go" />
+        <option value="$PROJECT_DIR$/src/github.com/netfirms/Laem-Chabang/api/http/server.go" />
+        <option value="$PROJECT_DIR$/cli/cli.go" />
+        <option value="$PROJECT_DIR$/cli/defaults.go" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="y" value="23" />
+    <option name="width" value="1440" />
+    <option name="height" value="838" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="api" type="b2602c69:ProjectViewProjectNode" />
+              <item name="api" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="api" type="b2602c69:ProjectViewProjectNode" />
+              <item name="api" type="462c0819:PsiDirectoryNode" />
+              <item name="cmd" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="api" type="b2602c69:ProjectViewProjectNode" />
+              <item name="api" type="462c0819:PsiDirectoryNode" />
+              <item name="cmd" type="462c0819:PsiDirectoryNode" />
+              <item name="portainer" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="api" type="b2602c69:ProjectViewProjectNode" />
+              <item name="api" type="462c0819:PsiDirectoryNode" />
+              <item name="exec" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="api" type="b2602c69:ProjectViewProjectNode" />
+              <item name="api" type="462c0819:PsiDirectoryNode" />
+              <item name="git" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="api" type="b2602c69:ProjectViewProjectNode" />
+              <item name="api" type="462c0819:PsiDirectoryNode" />
+              <item name="jwt" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="configurable.Global.GOPATH.is.expanded" value="true" />
+    <property name="configurable.Module.GOPATH.is.expanded" value="true" />
+    <property name="configurable.Project.GOPATH.is.expanded" value="true" />
+    <property name="go.gopath.indexing.explicitly.defined" value="true" />
+    <property name="go.sdk.automatically.set" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="com.goide.configuration.GoLibrariesConfigurableProvider" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/cmd/portainer" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Go Build.go build main.go with args">
+    <configuration name="go build api/" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="api" />
+      <working_directory value="$PROJECT_DIR$/" />
+      <kind value="DIRECTORY" />
+      <filePath value="$PROJECT_DIR$/" />
+      <directory value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build main.go with args" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true">
+      <module name="api" />
+      <working_directory value="$PROJECT_DIR$/" />
+      <parameters value="--template-file &quot;templates.json&quot;" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/cmd/portainer/main.go" />
+      <directory value="$PROJECT_DIR$/" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build server.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="api" />
+      <working_directory value="$PROJECT_DIR$/" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/http/server.go" />
+      <directory value="$PROJECT_DIR$/" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Go Build.go build main.go with args" />
+        <item itemvalue="Go Build.go build api/" />
+        <item itemvalue="Go Build.go build server.go" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="23" width="1440" height="838" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20958512" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49642345" visible="true" weight="0.3297587" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49785408" weight="0.3994638" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="8" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.49785408" weight="0.3297587" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.5035765" side_tool="true" visible="true" weight="0.3297587" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Database" order="3" />
+    </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20958512" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3297587" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="8" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="bottom" id="Terminal" order="10" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Database" order="3" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/git/git.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="23" column="25" lean-forward="true" selection-start-line="23" selection-start-column="25" selection-end-line="23" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jwt/jwt.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1155">
+          <caret line="77" column="33" lean-forward="true" selection-start-line="77" selection-start-column="33" selection-end-line="77" selection-end-column="33" />
+          <folding>
+            <element signature="e#13#140#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/crypto/tls.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="434">
+          <caret line="52" column="32" lean-forward="true" selection-start-line="52" selection-start-column="32" selection-end-line="52" selection-end-column="32" />
+          <folding>
+            <element signature="e#16#68#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/exec/extension.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-184">
+          <caret line="17" column="19" selection-start-line="17" selection-start-column="19" selection-end-line="17" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/exec/swarm_stack.go">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docker/snapshot.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="246">
+          <caret line="80" column="1" lean-forward="true" selection-start-line="80" selection-start-column="1" selection-end-line="80" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docker/client.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="645">
+          <caret line="51" column="53" selection-start-line="51" selection-start-column="53" selection-end-line="51" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docker/job.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="33" column="31" selection-start-line="33" selection-start-column="31" selection-end-line="33" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/http/server.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2985">
+          <caret line="232" column="19" selection-start-line="232" selection-start-column="19" selection-end-line="232" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/http/client/client.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="251">
+          <caret line="114" column="29" selection-start-line="114" selection-start-column="29" selection-end-line="114" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/http/handler/users/admin_check.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="22" column="1" selection-start-line="22" selection-start-column="1" selection-end-line="22" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/http/handler/users/admin_init.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="429">
+          <caret line="51" column="65" selection-start-line="51" selection-start-column="65" selection-end-line="51" selection-end-column="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/http/handler/users/handler.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="37" column="94" selection-start-line="37" selection-start-column="94" selection-end-line="37" selection-end-column="94" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/http/handler/users/user_create.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="15" column="6" selection-start-line="15" selection-start-column="6" selection-end-line="15" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/http/handler/users/user_delete.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="474">
+          <caret line="68" column="76" selection-start-line="68" selection-start-column="76" selection-end-line="68" selection-end-column="76" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/http/handler/users/user_inspect.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="19" selection-start-line="14" selection-start-column="19" selection-end-line="14" selection-end-column="19" />
+          <folding>
+            <element signature="e#15#201#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bolt/user/user.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="353">
+          <caret line="133" column="38" selection-start-line="133" selection-start-column="38" selection-end-line="133" selection-end-column="38" />
+          <folding>
+            <element signature="e#14#133#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bolt/datastore.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="50" selection-start-line="13" selection-start-column="50" selection-end-line="13" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/swagger_config.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/swagger.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="570">
+          <caret line="38" selection-start-line="38" selection-end-line="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/http/handler/users/user_list.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="26" column="5" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
+          <folding>
+            <element signature="e#15#175#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/portainer.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="104" column="14" selection-start-line="104" selection-start-column="14" selection-end-line="104" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/github.com/netfirms/Laem-Chabang/api/http/server.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="27" column="4" selection-start-line="27" selection-start-column="4" selection-end-line="27" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/github.com/netfirms/Laem-Chabang/api/docker/job.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="157">
+          <caret line="15" column="4" selection-start-line="15" selection-start-column="4" selection-end-line="15" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/github.com/netfirms/Laem-Chabang/api/bolt/datastore.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="26" column="1" lean-forward="true" selection-start-line="26" selection-start-column="1" selection-end-line="26" selection-end-column="1" />
+          <folding>
+            <element signature="e#14#1034#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cli/cli.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-561">
+          <caret line="21" column="30" lean-forward="true" selection-start-line="21" selection-start-column="30" selection-end-line="21" selection-end-column="30" />
+          <folding>
+            <element signature="e#13#138#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/github.com/netfirms/Laem-Chabang/api/cli/cli.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="5" column="42" lean-forward="true" selection-start-line="5" selection-start-column="42" selection-end-line="5" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/github.com/portainer/portainer/api/cli/cli.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="343">
+          <caret line="26" column="48" selection-start-line="26" selection-start-column="48" selection-end-line="26" selection-end-column="48" />
+          <folding>
+            <element signature="e#13#142#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/github.com/netfirms/Laem-Chabang/api/cmd/portainer/main.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="127">
+          <caret line="286" column="18" selection-start-line="286" selection-start-column="5" selection-end-line="286" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cmd/portainer/templates.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cmd/portainer/main.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="16" column="46" lean-forward="true" selection-start-line="16" selection-start-column="46" selection-end-line="16" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

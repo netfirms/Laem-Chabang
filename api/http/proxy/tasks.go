@@ -3,7 +3,7 @@ package proxy
 import (
 	"net/http"
 
-	"github.com/portainer/portainer"
+	"github.com/netfirms/Laem-Chabang/api"
 )
 
 const (

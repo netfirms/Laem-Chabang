@@ -2,9 +2,9 @@ package endpoints
 
 import (
 	httperror "github.com/portainer/libhttp/error"
-	"github.com/portainer/portainer"
-	"github.com/portainer/portainer/http/proxy"
-	"github.com/portainer/portainer/http/security"
+	"github.com/netfirms/Laem-Chabang/api"
+	"github.com/netfirms/Laem-Chabang/api/http/proxy"
+	"github.com/netfirms/Laem-Chabang/api/http/security"
 
 	"net/http"
 

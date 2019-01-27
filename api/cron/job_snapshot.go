@@ -3,7 +3,7 @@ package cron
 import (
 	"log"
 
-	"github.com/portainer/portainer"
+	"github.com/netfirms/Laem-Chabang/api"
 )
 
 // SnapshotJobRunner is used to run a SnapshotJob

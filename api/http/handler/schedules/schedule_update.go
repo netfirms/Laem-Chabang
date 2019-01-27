@@ -9,8 +9,8 @@ import (
 	httperror "github.com/portainer/libhttp/error"
 	"github.com/portainer/libhttp/request"
 	"github.com/portainer/libhttp/response"
-	"github.com/portainer/portainer"
-	"github.com/portainer/portainer/cron"
+	"github.com/netfirms/Laem-Chabang/api"
+	"github.com/netfirms/Laem-Chabang/api/cron"
 )
 
 type scheduleUpdatePayload struct {

@@ -2,15 +2,15 @@ package migrator
 
 import (
 	"github.com/boltdb/bolt"
-	"github.com/portainer/portainer"
-	"github.com/portainer/portainer/bolt/endpoint"
-	"github.com/portainer/portainer/bolt/endpointgroup"
-	"github.com/portainer/portainer/bolt/resourcecontrol"
-	"github.com/portainer/portainer/bolt/settings"
-	"github.com/portainer/portainer/bolt/stack"
-	"github.com/portainer/portainer/bolt/template"
-	"github.com/portainer/portainer/bolt/user"
-	"github.com/portainer/portainer/bolt/version"
+	"github.com/netfirms/Laem-Chabang/api"
+	"github.com/netfirms/Laem-Chabang/api/bolt/endpoint"
+	"github.com/netfirms/Laem-Chabang/api/bolt/endpointgroup"
+	"github.com/netfirms/Laem-Chabang/api/bolt/resourcecontrol"
+	"github.com/netfirms/Laem-Chabang/api/bolt/settings"
+	"github.com/netfirms/Laem-Chabang/api/bolt/stack"
+	"github.com/netfirms/Laem-Chabang/api/bolt/template"
+	"github.com/netfirms/Laem-Chabang/api/bolt/user"
+	"github.com/netfirms/Laem-Chabang/api/bolt/version"
 )
 
 type (
@@ -101,7 +101,7 @@ func (m *Migrator) Migrate() error {
 		}
 	}
 
-	// https://github.com/portainer/portainer/issues/1235
+	// https://github.com/netfirms/Laem-Chabang/api/issues/1235
 	if m.currentDBVersion < 5 {
 		err := m.updateSettingsToVersion5()
 		if err != nil {
@@ -109,7 +109,7 @@ func (m *Migrator) Migrate() error {
 		}
 	}
 
-	// https://github.com/portainer/portainer/issues/1236
+	// https://github.com/netfirms/Laem-Chabang/api/issues/1236
 	if m.currentDBVersion < 6 {
 		err := m.updateSettingsToVersion6()
 		if err != nil {
@@ -117,7 +117,7 @@ func (m *Migrator) Migrate() error {
 		}
 	}
 
-	// https://github.com/portainer/portainer/issues/1449
+	// https://github.com/netfirms/Laem-Chabang/api/issues/1449
 	if m.currentDBVersion < 7 {
 		err := m.updateSettingsToVersion7()
 		if err != nil {
@@ -132,7 +132,7 @@ func (m *Migrator) Migrate() error {
 		}
 	}
 
-	// https: //github.com/portainer/portainer/issues/1396
+	// https: //github.com/netfirms/Laem-Chabang/api/issues/1396
 	if m.currentDBVersion < 9 {
 		err := m.updateEndpointsToVersion9()
 		if err != nil {
@@ -140,7 +140,7 @@ func (m *Migrator) Migrate() error {
 		}
 	}
 
-	// https://github.com/portainer/portainer/issues/461
+	// https://github.com/netfirms/Laem-Chabang/api/issues/461
 	if m.currentDBVersion < 10 {
 		err := m.updateEndpointsToVersion10()
 		if err != nil {
@@ -148,7 +148,7 @@ func (m *Migrator) Migrate() error {
 		}
 	}
 
-	// https://github.com/portainer/portainer/issues/1906
+	// https://github.com/netfirms/Laem-Chabang/api/issues/1906
 	if m.currentDBVersion < 11 {
 		err := m.updateEndpointsToVersion11()
 		if err != nil {

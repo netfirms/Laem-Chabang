@@ -5,9 +5,9 @@ import (
 	"strings"
 
 	"github.com/boltdb/bolt"
-	"github.com/portainer/portainer"
-	"github.com/portainer/portainer/bolt/internal"
-	"github.com/portainer/portainer/bolt/stack"
+	"github.com/netfirms/Laem-Chabang/api"
+	"github.com/netfirms/Laem-Chabang/api/bolt/internal"
+	"github.com/netfirms/Laem-Chabang/api/bolt/stack"
 )
 
 func (m *Migrator) updateEndpointsToVersion12() error {

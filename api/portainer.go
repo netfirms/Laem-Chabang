@@ -102,6 +102,7 @@ type (
 		Username string   `json:"Username"`
 		Password string   `json:"Password,omitempty"`
 		Role     UserRole `json:"Role"`
+		Quotas string   `json:"Quotas"`
 	}
 
 	// UserID represents a user identifier

@@ -5,7 +5,7 @@ import (
 
 	httperror "github.com/portainer/libhttp/error"
 	"github.com/portainer/libhttp/response"
-	"github.com/portainer/portainer/http/security"
+	"github.com/netfirms/Laem-Chabang/api/http/security"
 )
 
 // GET request on /api/endpoint_groups

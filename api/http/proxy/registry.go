@@ -1,8 +1,8 @@
 package proxy
 
 import (
-	"github.com/portainer/portainer"
-	"github.com/portainer/portainer/http/security"
+	"github.com/netfirms/Laem-Chabang/api"
+	"github.com/netfirms/Laem-Chabang/api/http/security"
 )
 
 func createRegistryAuthenticationHeader(serverAddress string, accessContext *registryAccessContext) *registryAuthenticationHeader {
