@@ -4,11 +4,11 @@ import (
 	"net/http"
 
 	"github.com/asaskevich/govalidator"
+	"github.com/netfirms/Laem-Chabang/api"
+	"github.com/netfirms/Laem-Chabang/api/http/security"
 	httperror "github.com/portainer/libhttp/error"
 	"github.com/portainer/libhttp/request"
 	"github.com/portainer/libhttp/response"
-	"github.com/netfirms/Laem-Chabang/api"
-	"github.com/netfirms/Laem-Chabang/api/http/security"
 )
 
 type userCreatePayload struct {
@@ -32,6 +32,7 @@ func (payload *userCreatePayload) Validate(r *http.Request) error {
 // POST request on /api/users
 func (handler *Handler) userCreate(w http.ResponseWriter, r *http.Request) *httperror.HandlerError {
 	var payload userCreatePayload
+
 	err := request.DecodeAndValidateJSONPayload(r, &payload)
 	if err != nil {
 		return &httperror.HandlerError{http.StatusBadRequest, "Invalid request payload", err}
@@ -60,6 +61,7 @@ func (handler *Handler) userCreate(w http.ResponseWriter, r *http.Request) *http
 
 	user = &portainer.User{
 		Username: payload.Username,
+		Quotas: payload.Quotas,
 		Role:     portainer.UserRole(payload.Role),
 	}
 
